@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/coinredx/public_html/public
+    - /bin/cp index.php $DEPLOYPATH
+    - export DEPLOYPATH=/home4/coinredx/public_html/dist
+    - /bin/cp cores.css $DEPLOYPATH
+    - /bin/cp vanilla.css $DEPLOYPATH
+    - /bin/cp home.css $DEPLOYPATH

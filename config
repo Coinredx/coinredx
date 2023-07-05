@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	symlinks = true
+[receive]
+	denyCurrentBranch = updateInstead
+[gc]
+	auto = 0
+[remote "origin"]
+	url = ssh://coinredx@coinredx.com/home4/coinredx/public_html
+	fetch = +refs/heads/*:refs/remotes/origin/*
