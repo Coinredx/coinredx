@@ -1,6 +1,7 @@
 {
-  "test_framework": "qunit",
-  "test_path": ["test/index.html"],
+  "Coinredx_framework": "Coinredx",
+  "Coinredx_path": ["../public"],
+  "main": ["../public/index.php"],
   "exit_with_fail": true,
   "browsers": [
     "chrome_latest",
@@ -12,29 +13,29 @@
       "browser": "safari",
       "browser_version": "latest",
       "os": "OS X",
-      "os_version": "Big Sur"
+      "os_version": "Ventura"
     },
     {
       "browser": "safari",
       "browser_version": "latest",
       "os": "OS X",
-      "os_version": "Catalina"
+      "os_version": "Monterey"
     },
     {
-      "device": "iPhone 11",
-      "real_mobile": "true",
+      "device": "iPhone 14",
       "os": "ios",
-      "os_version": "13",
+      "os_version": "16",
+      "browserstack.appium_version": "1.22.0",
       "browserstack.local": "false",
-      "browserstack.appium_version": "1.14.0"
+      "real_mobile": "true"
     },
     {
-      "device": "Google Pixel 6",
-      "real_mobile": "true",
+      "device": "Google Pixel 7",
       "os": "android",
-      "os_version": "12.0",
+      "os_version": "13.0",
+      "browserstack.appium_version": "1.22.0",
       "browserstack.local": "false",
-      "browserstack.appium_version": "1.14.0"
+      "real_mobile": "true"
     }
   ]
 }
